@@ -1,0 +1,156 @@
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+@font-face {
+	font-family: Neue;
+	src: url('../fonts/BebasNeue-Regular.ttf');
+}
+
+:root {
+	--white-text : #f2f2f2;
+	--light-grey:#bbb;
+	--dark-grey: #717171; 
+}
+
+/* Slideshow container */
+.slideshow-container {
+  margin: auto;
+  position: relative;
+  width: 20%;
+  font-size: 2vh;
+}
+
+.slideshow-container img {
+  max-width: 100%;
+  width: 100%;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 3%;
+  color: white;
+  font-family: Neue;
+  font-weight: bold;
+  font-size: 100%;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  animation-name: breath;
+  animation-duration: 2s;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Button styling */
+.button {
+  backface-visibility: hidden;
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background: rgb(7,36,114);
+  background: linear-gradient(90deg, rgba(7,36,114,1) 0%, rgba(45,149,240,1) 50%, rgba(7,36,114,1) 100%);
+  border: 0px solid #444444;
+  border-width: 0px 0px 0px 0px;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 1vw;
+  font-family: Neue;
+  line-height: 2vw;
+  width: 50%;
+  opacity: 0.7;
+  transition: all 0.5s;
+}
+
+button:hover{
+  transition: all 0.5s;
+  opacity:1;
+}
+
+/* Slides and Captions*/
+.text {
+  color: var(--white-text);
+  font-size: 80%;
+  font-family: Neue;
+  padding: 6px;
+  position: absolute;
+  top: 1%;
+  width: 100%;
+  text-align: center ;
+}
+
+.numbertext {
+  color: var(--white-text);
+  font-size: 70%;
+  font-family: Neue;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  animation-name: breath;
+  animation-duration: 2s;
+}
+
+/* Dots and slides */
+.dots {
+  height: 5%;
+  width: 20%;
+  position: fixed;
+  bottom: 72%;
+  left: 40%;
+  text-align: center;
+}
+
+.dot {
+  cursor: pointer;
+  height: 20%;
+  width: 3%;
+  margin: 0 0px;
+  background-color: var(--light-grey);
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: var(--dark-grey);
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes breath {
+  0% {color:rgb(200, 200, 200);}
+  20% {color:rgb(210, 210, 210);}
+  40% {color:rgb(225, 225, 225);}
+  60% {color:rgb(235, 235, 235);}
+  80% {color:rgb(245, 245, 245);}
+  100% {color:rgb(255, 255, 255);}
+}
