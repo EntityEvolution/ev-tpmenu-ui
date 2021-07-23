@@ -1,6 +1,4 @@
 # ev-tpmenu-ui 
-[Preview](https://streamable.com/9iqh3q)
-
 A simple NUI teleport menu
 
 # License
