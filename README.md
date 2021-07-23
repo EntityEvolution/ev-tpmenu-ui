@@ -1,9 +1,10 @@
-# PE-tpmenu-ui 
+# ev-tpmenu-ui 
 [Preview](https://streamable.com/9iqh3q)
 
-## Description
+A simple NUI teleport menu
 
-**PE-tpmenu-ui** is a teleport menu that allows you to teleport to pre-confugred locations. By default, this resource comes with 10 locations. These can be changed by editing the resource. See *Adding Locations*.
+# License
+This project does not contain a license, therefore you are not allowed to add one and claim it as yours. You are not allowed to sell this nor re-distribute it. If you want to modify or make an agreement, you can contact me. Pull requests are accepted as long as they do not contain breaking changes. You can read more [here](https://opensource.stackexchange.com/questions/1720/what-can-i-assume-if-a-publicly-published-project-has-no-license) 
 
 ## Usage:
 The menu can be opened by doing the following:
@@ -16,11 +17,6 @@ The menu can be opened by doing the following:
 ensure pe-tpmenu-ui
 ```
 **Do not seek support if you renamed the resource.**
-
-## Adding Locations
-1) To add more locations, you to the config.lua and setup and new location.
-2) Then go to the ui.html and setup a new block that matches the action in your config.lua.
-3) Finally you setup the script.js and add a new function that matches the id of your html file and the config.lua.
 
 ## Issues
 If you find any issues with this please make sure to report them.
