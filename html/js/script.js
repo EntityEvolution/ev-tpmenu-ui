@@ -1,6 +1,6 @@
 // Close with 'Escape' key
-document.onkeyup = function(event) {
-  if (event.key == 'Escape') {
-      $.post('https://ev-tpmenu-ui/close');
+doc.onkeyup = function(e) {
+  if (e.key == 'Escape') {
+    fetchNUI('close', 'cb')
   }
 };
