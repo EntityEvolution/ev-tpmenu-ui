@@ -1,121 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Basic identifier stuff-->
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="description" content="FiveM Teleport Menu">
+    <title>Teleport Menu</title>
+
+    <!--CSS and images links-->
     <link rel="stylesheet" href="./css/style.css">
-    <style> #slideshow, #dots { display: none; }</style>
-    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
-    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-    <script>
-      $(function() {
-        $( "#slideshow" ).draggable();
-        $( "#dots" ).draggable();
-      });
-  </script>
 </head>
 <body>
-  <div class="slideshow-container" id="slideshow">
-    <div class="mySlides fade">
-      <div class="numbertext"></div>
-      <img src="./img/mountChilliad.png">
-      <button class="button" id="tp1">Teleport</button>
-      <div class="text">Mount Chilliad</div>
-    </div>
+  <div class="wrapper">
+		<div class="container">
 
-    <div class="mySlides fade">
-      <div class="numbertext"></div>
-      <img src="./img/prison.png">
-      <button class="button" id="tp2">Teleport</button>
-      <div class="text">Prison</div>
-    </div>
+		</div>
+	</div>  
 
-    <div class="mySlides fade">
-      <div class="numbertext"></div>
-      <img src="./img/casino.png">
-      <button class="button" id="tp3">Teleport</button>
-      <div class="text">Casino</div>
-    </div>
+	<script type="text/javascript" src="./js/nui.js"></script>
+  <script type="text/javascript" src="./js/script.js"></script>
+</body>
 
-    <div class="mySlides fade">
-      <div class="numbertext"></div>
-      <img src="./img/mrpd.png">
-      <button class="button" id="tp4">Teleport</button>
-      <div class="text">Mission Row PD</div>
-    </div>
-
-    <div class="mySlides fade">
-      <div class="numbertext"></div>
-      <img src="./img/vinewood.png">
-      <button class="button" id="tp5">Teleport</button>
-      <div class="text">Vinewood</div>
-    </div>
-
-    <div class="mySlides fade">
-      <div class="numbertext"></div>
-      <img src="./img/pier.png">
-      <button class="button" id="tp6">Teleport</button>
-      <div class="text">Vespucci Pier</div>
-    </div>
-
-    <div class="mySlides fade">
-      <div class="numbertext"></div>
-      <img src="./img/mazebank.png">
-      <button class="button" id="tp7">Teleport</button>
-      <div class="text"></div>
-    </div>
-
-    <div class="mySlides fade">
-      <div class="numbertext"></div>
-      <img src="./img/trevorAirfield.jpg">
-      <button class="button" id="tp8">Teleport</button>
-      <div class="text">Trevor Airfield</div>
-    </div>
-
-    <div class="mySlides fade">
-      <div class="numbertext"></div>
-      <img src="./img/lsia.png">
-      <button class="button" id="tp9">Teleport</button>
-      <div class="text">Los Santos Airport</div>
-    </div>
-
-    <div class="mySlides fade">
-      <div class="numbertext"></div>
-      <img src="./img/zancudo.jpg">
-      <button class="button" id="tp10">Teleport</button>
-      <div class="text">Fort Zancudo</div>
-    </div>
-
-<!--INSTRUCTIONS
-  1 - Copy the entire block below.
-  2 - Change the caption to your location
-  3 - Change your image
-  4 - Change the id for the tp button
-  5 - Add your dot
-  6 - Remove comment
--->
-<!--<div class="mySlides fade">
-  <div class="numbertext"></div>
-  <img src="./img/img_mountains_wide.png">
-  <button class="button" id="tp11">Teleport</button>
-  <div class="text">Caption Eleven</div>
-</div>-->
-
-      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-      <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        <div class="dots" id="dots">
-          <span class="dot" onclick="currentSlide(1)"></span> 
-          <span class="dot" onclick="currentSlide(2)"></span> 
-          <span class="dot" onclick="currentSlide(3)"></span>
-          <span class="dot" onclick="currentSlide(4)"></span> 
-          <span class="dot" onclick="currentSlide(5)"></span> 
-          <span class="dot" onclick="currentSlide(6)"></span> 
-          <span class="dot" onclick="currentSlide(7)"></span> 
-          <span class="dot" onclick="currentSlide(8)"></span> 
-          <span class="dot" onclick="currentSlide(9)"></span> 
-          <span class="dot" onclick="currentSlide(10)"></span>
-          <!--<span class="dot" onclick="currentSlide(11)"></span>-->
-        </div>
-      </div>
-    <script type="text/javascript" src="./js/script.js"></script>
-  </body>
 </html>
