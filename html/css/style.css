@@ -110,8 +110,11 @@ body {
   flex-direction: column;
   justify-content: flex-start;
   width: 100%;
-  height: 20%;
   
+  font-family: Neue;
+  font-size: 2.0vh;
+  color: #ebebeb;
+
   border-radius: 0.6vh;
   box-shadow: 0.6vh 1.0vh 1.5vh rgba(0, 0, 0, 0.3);
   margin-top: 5%;
