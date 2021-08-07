@@ -10,6 +10,12 @@ The menu can be opened by doing the following:
 - Pressing `F5`. Players can adjust this ingame.
 - Escape key to close it.
 
+## Creating more
+1) Go to `slides.json`.
+2) Copy a block of code and paste it.
+3) Modify everything to your needs.
+4) Ensure the resource.
+
 ## Installation
 * You can either download it or clone it with git and add the following to your `server.cfg`:
 ```
