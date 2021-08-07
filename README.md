@@ -22,7 +22,7 @@ The menu can be opened by doing the following:
 ensure ev-tpmenu-ui
 ```
 
-![](https://c.file.glass/0igh5.jpg)
+![](https://c.file.glass/0igh5.png)
 
 ## Issues
 If you find any issues with this please make sure to report them.
