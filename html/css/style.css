@@ -40,8 +40,18 @@ body {
   border-radius: 0.6vh;
   box-shadow: 0.6vh 1.0vh 1.5vh rgba(0, 0, 0, 0.3);
 
-  background: rgb(2,0,36);
-  background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 20%, rgba(0,164,255,1) 100%);
+  background: rgba(134, 134, 134, 0.7);
+}
+
+.container-wrap {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
 }
 
 .wrap-img {
@@ -68,6 +78,7 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 95%;
+  height: 100%;
   z-index: 2;
 }
 

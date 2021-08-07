@@ -1,0 +1,23 @@
+[
+    {
+        "title" : "Mount Chilliad",
+        "description" : "A cool place",
+        "button" : "Teleport",
+        "x" : "130",
+        "y" : "130",
+        "z" : "130",
+        "heading" : "130.0",
+        "image" : "https://i.pinimg.com/originals/5d/9e/62/5d9e62d6f20658e7baa09ddc989409e3.jpg"
+    },
+
+    {
+        "title" : "Cool Place",
+        "description" : "A cool place 2",
+        "button" : "Teleport",
+        "x" : "130",
+        "y" : "130",
+        "z" : "130",
+        "heading" : "110.0",
+        "image" : "https://img-9gag-fun.9cache.com/photo/anQMdD5_460s.jpg"
+    }
+]

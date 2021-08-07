@@ -10,25 +10,25 @@
 
     <!--CSS and images links-->
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preload" href="./fonts/BebasNeue-Regular.ttf" as="font" crossorigin="anonymous"/>
 </head>
 <body>
-  <div class="wrapper">
+  <div id="main" class="wrapper">
     <div class="items-container">
-      <div class="container">
-        <img class="wrap-img" src="https://i.pinimg.com/originals/5d/9e/62/5d9e62d6f20658e7baa09ddc989409e3.jpg">
-        <span class="wrap-title">Mount Chilliad</span>
+      <div id="container" class="container">
+        <!--Data inserted by javascript-->
         <div class="arrows-container">
-          <i class="fas fa-chevron-left"></i>
-          <i class="fas fa-chevron-right"></i>
+          <i id="before" class="fas fa-chevron-left"></i>
+          <i id="after" class="fas fa-chevron-right"></i>
         </div>
-        <button class="wrap-btn">Teleport</button>
       </div>
+
       <div class="info-container">
         <span style="margin: 2.5%;">Description: 
-          <span style="font-size: 1.7vh;">A very cool place to enjoy your life. Maybe I should get a life too. or idk</span>
+          <span id="desc-slides" style="font-size: 1.7vh;">A very cool place to enjoy your life. Maybe I should get a life too. or idk</span>
         </span>
         <span style="margin: 2.5%;">Index: 
-          <span>1/3</span>
+          <span id="num-slides">1 / 1</span>
         </span>
       </div>
     </div>
