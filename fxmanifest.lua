@@ -18,6 +18,6 @@ files {
     'html/ui.html',
     'slides.json',
     'html/css/style.css',
-    'html/fonts/*.ttf'
+    'html/fonts/*.ttf',
     'html/js/*.js'
 }
