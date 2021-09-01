@@ -26,10 +26,3 @@ end)
 RegisterCommand('tpmenu', nuiState)
 
 RegisterKeyMapping('tpmenu', 'Open the teleport menu', 'keyboard', 'f5')
-
--- Threads 
-CreateThread(function()
-    while isOpen do
-        DisableControlAction(0, 322, true)
-    end
-end)
